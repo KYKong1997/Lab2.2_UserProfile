@@ -64,4 +64,8 @@ public class MainActivity extends AppCompatActivity {
         Log.d("Main Activity","onStart");
 
     }
+    public void showMain(View v){
+        Intent intent=new Intent(Intent.ACTION_MAIN);
+        startActivity(intent);
+    }
 }
